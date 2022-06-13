@@ -1,0 +1,45 @@
+D:\Code\ASOS\QA-test (1)\code-test\WebApiCodeTest\bin\Debug\netcoreapp2.1\NUnit3.TestAdapter.dll
+D:\Code\ASOS\QA-test (1)\code-test\WebApiCodeTest\bin\Debug\netcoreapp2.1\NUnit3.TestAdapter.pdb
+D:\Code\ASOS\QA-test (1)\code-test\WebApiCodeTest\bin\Debug\netcoreapp2.1\nunit.engine.netstandard.dll
+D:\Code\ASOS\QA-test (1)\code-test\WebApiCodeTest\bin\Debug\netcoreapp2.1\testhost.exe
+D:\Code\ASOS\QA-test (1)\code-test\WebApiCodeTest\bin\Debug\netcoreapp2.1\testhost.dll
+D:\Code\ASOS\QA-test (1)\code-test\WebApiCodeTest\bin\Debug\netcoreapp2.1\Microsoft.TestPlatform.PlatformAbstractions.dll
+D:\Code\ASOS\QA-test (1)\code-test\WebApiCodeTest\bin\Debug\netcoreapp2.1\WebApiCodeTest.deps.json
+D:\Code\ASOS\QA-test (1)\code-test\WebApiCodeTest\bin\Debug\netcoreapp2.1\WebApiCodeTest.runtimeconfig.json
+D:\Code\ASOS\QA-test (1)\code-test\WebApiCodeTest\bin\Debug\netcoreapp2.1\WebApiCodeTest.runtimeconfig.dev.json
+D:\Code\ASOS\QA-test (1)\code-test\WebApiCodeTest\bin\Debug\netcoreapp2.1\WebApiCodeTest.dll
+D:\Code\ASOS\QA-test (1)\code-test\WebApiCodeTest\bin\Debug\netcoreapp2.1\WebApiCodeTest.pdb
+D:\Code\ASOS\QA-test (1)\code-test\WebApiCodeTest\obj\Debug\netcoreapp2.1\WebApiCodeTest.csproj.AssemblyReference.cache
+D:\Code\ASOS\QA-test (1)\code-test\WebApiCodeTest\obj\Debug\netcoreapp2.1\WebApiCodeTest.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\ASOS\QA-test (1)\code-test\WebApiCodeTest\obj\Debug\netcoreapp2.1\WebApiCodeTest.AssemblyInfoInputs.cache
+D:\Code\ASOS\QA-test (1)\code-test\WebApiCodeTest\obj\Debug\netcoreapp2.1\WebApiCodeTest.AssemblyInfo.cs
+D:\Code\ASOS\QA-test (1)\code-test\WebApiCodeTest\obj\Debug\netcoreapp2.1\WebApiCodeTest.csproj.CoreCompileInputs.cache
+D:\Code\ASOS\QA-test (1)\code-test\WebApiCodeTest\obj\Debug\netcoreapp2.1\WebApiCodeTest.dll
+D:\Code\ASOS\QA-test (1)\code-test\WebApiCodeTest\obj\Debug\netcoreapp2.1\WebApiCodeTest.pdb
+D:\Code\ASOS\QA-test (1)\code-test\WebApiCodeTest\obj\Debug\netcoreapp2.1\WebApiCodeTest.genruntimeconfig.cache
+C:\Users\gsmra\source\repos\asos\WebApiCodeTest\obj\Debug\netcoreapp2.1\WebApiCodeTest.csproj.AssemblyReference.cache
+C:\Users\gsmra\source\repos\asos\WebApiCodeTest\obj\Debug\netcoreapp2.1\WebApiCodeTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gsmra\source\repos\asos\WebApiCodeTest\obj\Debug\netcoreapp2.1\WebApiCodeTest.AssemblyInfoInputs.cache
+C:\Users\gsmra\source\repos\asos\WebApiCodeTest\obj\Debug\netcoreapp2.1\WebApiCodeTest.AssemblyInfo.cs
+C:\Users\gsmra\source\repos\asos\WebApiCodeTest\obj\Debug\netcoreapp2.1\WebApiCodeTest.csproj.CoreCompileInputs.cache
+C:\Users\gsmra\source\repos\asos\WebApiCodeTest\obj\Debug\netcoreapp2.1\WebApiCodeTest.dll
+C:\Users\gsmra\source\repos\asos\WebApiCodeTest\obj\Debug\netcoreapp2.1\WebApiCodeTest.pdb
+D:\Code\ASOS\TestCode\WebApiCodeTest\bin\Debug\netcoreapp2.1\NUnit3.TestAdapter.dll
+D:\Code\ASOS\TestCode\WebApiCodeTest\bin\Debug\netcoreapp2.1\NUnit3.TestAdapter.pdb
+D:\Code\ASOS\TestCode\WebApiCodeTest\bin\Debug\netcoreapp2.1\nunit.engine.netstandard.dll
+D:\Code\ASOS\TestCode\WebApiCodeTest\bin\Debug\netcoreapp2.1\testhost.exe
+D:\Code\ASOS\TestCode\WebApiCodeTest\bin\Debug\netcoreapp2.1\testhost.dll
+D:\Code\ASOS\TestCode\WebApiCodeTest\bin\Debug\netcoreapp2.1\Microsoft.TestPlatform.PlatformAbstractions.dll
+D:\Code\ASOS\TestCode\WebApiCodeTest\bin\Debug\netcoreapp2.1\WebApiCodeTest.deps.json
+D:\Code\ASOS\TestCode\WebApiCodeTest\bin\Debug\netcoreapp2.1\WebApiCodeTest.runtimeconfig.json
+D:\Code\ASOS\TestCode\WebApiCodeTest\bin\Debug\netcoreapp2.1\WebApiCodeTest.runtimeconfig.dev.json
+D:\Code\ASOS\TestCode\WebApiCodeTest\bin\Debug\netcoreapp2.1\WebApiCodeTest.dll
+D:\Code\ASOS\TestCode\WebApiCodeTest\bin\Debug\netcoreapp2.1\WebApiCodeTest.pdb
+D:\Code\ASOS\TestCode\WebApiCodeTest\obj\Debug\netcoreapp2.1\WebApiCodeTest.csproj.AssemblyReference.cache
+D:\Code\ASOS\TestCode\WebApiCodeTest\obj\Debug\netcoreapp2.1\WebApiCodeTest.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\ASOS\TestCode\WebApiCodeTest\obj\Debug\netcoreapp2.1\WebApiCodeTest.AssemblyInfoInputs.cache
+D:\Code\ASOS\TestCode\WebApiCodeTest\obj\Debug\netcoreapp2.1\WebApiCodeTest.AssemblyInfo.cs
+D:\Code\ASOS\TestCode\WebApiCodeTest\obj\Debug\netcoreapp2.1\WebApiCodeTest.csproj.CoreCompileInputs.cache
+D:\Code\ASOS\TestCode\WebApiCodeTest\obj\Debug\netcoreapp2.1\WebApiCodeTest.dll
+D:\Code\ASOS\TestCode\WebApiCodeTest\obj\Debug\netcoreapp2.1\WebApiCodeTest.pdb
+D:\Code\ASOS\TestCode\WebApiCodeTest\obj\Debug\netcoreapp2.1\WebApiCodeTest.genruntimeconfig.cache
