@@ -17,7 +17,7 @@ namespace WebApiCodeTest.APIServiceCall
     public class APIServiceCalls
     {
         public async Task<HttpResponseMessage> SearchData(string strStore,string strLang,
-            string strCurrency, string strOffSet,string strLimit, string strInputData)
+            string strCurrency, string strOffSet,string strLimit, string strInputData, bool blnSpellcheck)
         {
 
             const string searchV2Url = "https://api.asos.com/product/search/v2/";
@@ -25,10 +25,24 @@ namespace WebApiCodeTest.APIServiceCall
             const string encoding = "identity";
             const string keepAlive = "keep-alive";
 
-            var builder = new UriBuilder(searchV2Url)
+            UriBuilder builder = null;
+
+            if (blnSpellcheck == false)
             {
-                Query = $"store={strStore}&lang={strLang}&currency={strCurrency}&offset={strOffSet}&limit={strLimit}&q={strInputData}"
-            };
+                builder = new UriBuilder(searchV2Url)
+                {
+                    Query = $"store={strStore}&lang={strLang}&currency={strCurrency}&offset={strOffSet}&limit={strLimit}&q={strInputData}"
+                };
+            }
+            else if (blnSpellcheck == true)
+            {
+                builder = new UriBuilder(searchV2Url)
+                {
+                    Query = $"Spellcheck={blnSpellcheck}&store={strStore}&lang={strLang}&currency={strCurrency}&offset={strOffSet}&limit={strLimit}&q={strInputData}"
+                };
+            }
+
+
 
             var request = new HttpRequestMessage(HttpMethod.Get, builder.Uri);
             request.Headers.Add("Accept", accept);
@@ -41,18 +55,6 @@ namespace WebApiCodeTest.APIServiceCall
             var client = new HttpClient();
             var response = await client.SendAsync(request);
             return response;
-        }
-
-        async static void SpellCheck(string text)
-        {
-            string key = "<ENTER-KEY-HERE>";
-            
-
-            var client = new HttpClient();
-            client.DefaultRequestHeaders.Add("Ocp-Apim-Subscription-Key", key);
-
-            HttpResponseMessage response = null;
-            // add the rest of the code snippets here (except for main())...
         }
 
     }

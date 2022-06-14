@@ -15,7 +15,7 @@ namespace WebApiCodeTest.Tests
         [Test]
         public async Task GivenASearchRequestWithMissingSearchTerm_WhenTheRequestIsSent_ThenTheResponseShouldBeBadRequest()
         {
-            HttpResponseMessage response = await aPIServiceCall.SearchData("com", "en", "GBP", "0", "10","");
+            HttpResponseMessage response = await aPIServiceCall.SearchData("com", "en", "GBP", "0", "10","", false);
 
             // Assert
             Assert.That(response.StatusCode, Is.EqualTo(HttpStatusCode.BadRequest));
@@ -29,12 +29,19 @@ namespace WebApiCodeTest.Tests
 
             // Arrange
 
-            HttpResponseMessage response = await aPIServiceCall.SearchData("com", "en", "GBP", "0", "10", "Nike caps");
+            HttpResponseMessage response = await aPIServiceCall.SearchData("com", "en", "GBP", "0", "10", "Nike caps",false);
+
+            // Assert
+            Assert.That(response.StatusCode, Is.EqualTo(HttpStatusCode.OK));
+        }
+        [Test]
+        public async Task Valid_Search_Term_SpellCheck()
+        {
+            HttpResponseMessage response = await aPIServiceCall.SearchData("com", "en", "GBP", "0", "10", "Nike caps", true);
 
             // Assert
             Assert.That(response.StatusCode, Is.EqualTo(HttpStatusCode.OK));
         }
 
-        
     }
 }
